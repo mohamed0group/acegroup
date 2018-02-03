@@ -1,0 +1,161 @@
+{
+  "info": {
+    "name": "mohamed",
+    "lastname": "mohamed ahmed",
+    "jobtitle": "Front-end Developer",
+    "details": [
+      {
+        "id": 0,
+        "title": "mobile",
+        "description": "+249 915 775 147"
+      },
+      {
+        "id": 1,
+        "title": "personal email",
+        "description": "mohamed0abdeen@gmail.com"
+      },
+      {
+        "id": 2,
+        "title": "work email",
+        "description": "mohamed0group@gmail.com"
+      }
+    ],
+    "photo":""
+  },
+  "sections": [
+    {
+      "id": 0,
+      "type": "timerange",
+      "title": "Education",
+      "items": [
+        {
+          "id": 0,
+          "title": "nile vally University",
+          "description": "Bcs in mechaniccal engineering",
+          "timerange": "09.2011-12.2016"
+        },
+        {
+          "id": 1,
+          "title": "Apress ",
+          "description": "IT",
+          "timerange": "09.2017-Present"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "timerange",
+      "title": "Experience",
+      "items": [
+        {
+          "id": 0,
+          "title": "personal project",
+          "description": "Front-end Developer",
+          "timerange": "09.2017-Present"
+        },
+        {
+          "id": 1,
+          "title": "personal reposatry",
+          "description": "Front-end Developer",
+          "timerange": "09.2017-Present"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "skills",
+      "title": "Languages",
+      "items": [
+        {
+          "id": 0,
+          "title": "English",
+          "percent": 85
+        },
+        {
+          "id": 1,
+          "title": "Arabic",
+          "percent": 100
+        },
+        {
+          "id": 2,
+          "title": "Japanes",
+          "percent": 25
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "skills",
+      "title": "Skills",
+      "items": [
+        {
+          "id": 0,
+          "title": "HTML",
+          "percent": 100
+        },
+        {
+          "id": 1,
+          "title": "Git",
+          "percent": 90
+        },
+        {
+          "id": 2,
+          "title": "CSS",
+          "percent": 85
+        },
+        {
+          "id": 3,
+          "title": "javascript",
+          "percent": 65
+        },
+        {
+          "id": 4,
+          "title": "Bootstrap",
+          "percent": 95
+        },
+        {
+          "id": 5,
+          "title": "React.js",
+          "percent": 85
+        },
+        {
+          "id": 6,
+          "title": "Three.js",
+          "percent": 65
+        },
+        {
+          "id": 7,
+          "title": "redux",
+          "percent": 55
+        },
+        {
+          "id": 8,
+          "title": "webpack",
+          "percent": 70
+        },
+        {
+          "id": 9,
+          "title": "Bootstrap ui",
+          "percent": 85
+        },
+        {
+          "id": 10,
+          "title": "ux",
+          "percent": 85
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "basic",
+      "title": "Hobby",
+      "items": [
+        {
+          "id": 0,
+          "description": "BaskitBall, Chess"
+        }
+      ]
+    }
+  ]
+
+}
