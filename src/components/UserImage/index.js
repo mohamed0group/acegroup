@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import addUserImage from './ace-0.jpg';
+import addUserImage from './ace-0.jpg';
 import './UserImage.css';
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 
 class UserImage extends Component {
   constructor(props) {
@@ -32,6 +33,15 @@ class UserImage extends Component {
   }
 
   render() {
+    const transitionOptions = {
+      transitionName:"UserImage",
+      transitionAppear:true,
+      transitionEnter:false,
+      transitionLeave:false,
+      transitionAppearTimeout:3000,
+      transitionLeaveTimeout:2500,
+      transitionEnterTimeout:2500,
+  };
     const isEditing = this.props.isEditing;
     
     let image;
@@ -43,7 +53,8 @@ class UserImage extends Component {
       )
     }
     return (
-      <div className="user-image" style={{backgroundImage: `url('https://mohamed0group.github.io/avatar.jpg')`}}>
+      <ReactCSSTransitionGroup {...transitionOptions}>
+      <div className="user-image" style={{backgroundImage: `url('https://mohamed0group.github.io/acegroup/avatar.jpg')`}}>
 
         {image}
 
@@ -63,6 +74,7 @@ class UserImage extends Component {
         }
 
       </div>
+      </ReactCSSTransitionGroup>
     )
   }
 }
