@@ -1,5 +1,5 @@
 {
-  "name": "ace-resume",
+  "name": "acegroup",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -22,5 +22,5 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mohamed0group.github.io/ace-resume"
+  "homepage": "https://acegroup.js.org"
 }
