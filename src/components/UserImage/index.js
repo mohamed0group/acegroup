@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import addUserImage from './ace-0.jpg';
+// import addUserImage from './ace-0.jpg';
 import './UserImage.css';
 
 class UserImage extends Component {
@@ -43,7 +43,7 @@ class UserImage extends Component {
       )
     }
     return (
-      <div className="user-image" style={{backgroundImage: `url(${addUserImage})`}}>
+      <div className="user-image" style={{backgroundImage: `url('https://mohamed0group.github.io/avatar.jpg')`}}>
 
         {image}
 
